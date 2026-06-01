@@ -1,8 +1,8 @@
 import { Arc, Chapter, Character, Comment } from "./types";
-import mangaData from "./scraped_ru8jmi-gachiakuta.json";
+import mangaData from "./scraped_ru8jmi-gamaran.json";
 
-// Gachiakuta began serialization on February 16, 2022
-const SERIES_START = new Date("2022-02-16T00:00:00Z").getTime();
+// Gamaran began serialization on May 20, 2009
+const SERIES_START = new Date("2009-05-20T00:00:00Z").getTime();
 const MS_PER_WEEK = 7 * 24 * 60 * 60 * 1000;
 
 export const MOCK_CHAPTERS: Chapter[] = [...mangaData.chapters]
@@ -19,47 +19,63 @@ export const MOCK_CHAPTERS: Chapter[] = [...mangaData.chapters]
 
 export const CHARACTERS: Character[] = [
   {
-    "id": "ludo",
-    "name": "Ludo",
+    "id": "gama",
+    "name": "Gama Kurogane",
     "role": "Protagonist",
-    "grade": "Giver",
-    "description": "A trash collector thrown into the Abyss who wields gloves as Jinki.",
+    "grade": "Ogame School",
+    "description": "A teenage prodigy swordsman of the Ogame School and the son of the legendary swordsman Jinsuke Kurogane.",
     "image": "https://picsum.photos/400/600?random=10"
   },
   {
-    "id": "engine",
-    "name": "Engine",
-    "role": "Ally",
-    "grade": "Giver / Leader",
-    "description": "The leader of the Janitors who rescues Ludo and wields a Jinki umbrella.",
+    "id": "naoyoshi",
+    "name": "Naoyoshi Washizu",
+    "role": "Ally / Sponsor",
+    "grade": "28th Son of Washizu",
+    "description": "The 28th son of the Unabara lord who sponsors the Ogame School to represent him in the tournament.",
     "image": "https://picsum.photos/400/600?random=11"
   },
   {
-    "id": "ryo",
-    "name": "Ryo",
+    "id": "shinnojou",
+    "name": "Shinnojou Sakura",
     "role": "Ally",
-    "grade": "Giver",
-    "description": "A skilled Janitor with a quirky personality and scissor Jinki.",
+    "grade": "Ogame School Senior",
+    "description": "A top disciple and senior student of the Ogame School known for his exceptional blade speed and cool head.",
     "image": "https://picsum.photos/400/600?random=12"
+  },
+  {
+    "id": "zenmaru",
+    "name": "Zenmaru Ichinose",
+    "role": "Ally",
+    "grade": "Ogame School Student",
+    "description": "A proud and aggressive disciple of the Ogame School who fights using the giant tachi blade.",
+    "image": "https://picsum.photos/400/600?random=13"
   }
 ];
 
 export const ARCS: Arc[] = [
   {
-    "id": "abyss",
-    "title": "Abyss Arrival Arc",
-    "description": "Ludo falls into the Abyss and learns about Janitors and Jinki.",
+    "id": "tournament_start",
+    "title": "Unabara Tournament Start",
+    "description": "Gama and Naoyoshi enter the deadly Unabara Domain martial tournament, confronting rival schools.",
     "chapterStart": 1,
-    "chapterEnd": 12,
+    "chapterEnd": 50,
     "image": "https://picsum.photos/600/300?random=20"
   },
   {
-    "id": "janitors",
-    "title": "Janitors Selection Arc",
-    "description": "Ludo tests his abilities and joins the ranks of the Janitors.",
-    "chapterStart": 13,
-    "chapterEnd": 30,
+    "id": "middle_clash",
+    "title": "Middle Tournament Battles",
+    "description": "The tournament intensifies as Gama faces off against the strongest martial arts factions and past enemies.",
+    "chapterStart": 51,
+    "chapterEnd": 120,
     "image": "https://picsum.photos/600/300?random=21"
+  },
+  {
+    "id": "final_showdown",
+    "title": "Final Showdown",
+    "description": "Gama confronts the ultimate masters and his legendary father in a battle for survival and honor.",
+    "chapterStart": 121,
+    "chapterEnd": 194,
+    "image": "https://picsum.photos/600/300?random=22"
   }
 ];
 

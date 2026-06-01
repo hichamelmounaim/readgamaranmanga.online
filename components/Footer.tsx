@@ -11,10 +11,10 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           <div className="max-w-md">
             <h3 className="text-xl font-heading font-extrabold text-gray-900 dark:text-white mb-6 tracking-tight">
-              GACHIAKUTA <span className="text-bb-blue">MANGA</span>
+              GAMARAN <span className="text-bb-blue">MANGA</span>
             </h3>
             <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed mb-6">
-              Your premiere destination for reading Gachiakuta manga online.
+              Your premiere destination for reading Gamaran manga online.
               High quality scans, fast loading, and the latest chapter updates.
             </p>
             <p className="text-xs text-gray-400 dark:text-gray-600">
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-200 dark:border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-gray-400 dark:text-gray-600 text-center md:text-left">
-            &copy; {currentYear} Gachiakuta Manga. All rights reserved.
+            &copy; {currentYear} Gamaran Manga. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs text-gray-400 dark:text-gray-600 font-medium">
             <span>Made for fans by fans</span>

@@ -1,3 +1,31 @@
 {
-  "mangaEdgeSlug": "wjk6zw-sakamoto-days"
+  "mangaEdgeSlug": "rkdatk-gamaran",
+  "history": [
+    {
+      "id": "j4pawsu",
+      "date": "2026-05-30T15:33:11.184Z",
+      "type": "scrape",
+      "description": "Scraped successfully. Found 2 new chapter(s): Ch. 122, Ch. 132.",
+      "details": {
+        "newChaptersCount": 2,
+        "newChapterNumbers": [
+          122,
+          132
+        ],
+        "totalChapters": 194
+      }
+    },
+    {
+      "id": "kf5mje0",
+      "date": "2026-05-30T16:17:19.003Z",
+      "type": "scrape",
+      "description": "Scraped successfully during bulk sync. No new chapters found. Up to date!",
+      "details": {
+        "newChaptersCount": 0,
+        "newChapterNumbers": [],
+        "totalChapters": 194,
+        "bulkSync": true
+      }
+    }
+  ]
 }

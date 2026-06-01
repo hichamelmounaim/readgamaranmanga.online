@@ -77,12 +77,12 @@ const ChapterReader: React.FC = () => {
   return (
     <div className="bg-gray-100 dark:bg-[#121212] min-h-screen flex flex-col">
       <SEOHead
-        title={`Gachiakuta Manga Chapter ${chapter.number} - Read Online`}
-        description={`Read Gachiakuta Manga Chapter ${chapter.number}: ${chapter.title} online in high quality free. Official English scans available.`}
+        title={`Gamaran Manga Chapter ${chapter.number} - Read Online`}
+        description={`Read Gamaran Manga Chapter ${chapter.number}: ${chapter.title} online in high quality free. Official English scans available.`}
         schema={{
           "@context": "https://schema.org",
           "@type": "ComicIssue",
-          "headline": `Gachiakuta Chapter ${chapter.number}: ${chapter.title}`,
+          "headline": `Gamaran Chapter ${chapter.number}: ${chapter.title}`,
           "image": chapter.pages[0],
           "datePublished": chapter.releaseDate,
           "issueNumber": chapter.number,
@@ -92,7 +92,7 @@ const ChapterReader: React.FC = () => {
           },
           "publisher": {
             "@type": "Organization",
-            "name": "Gachiakuta Manga"
+            "name": "Gamaran Manga"
           }
         }}
       />
@@ -152,12 +152,12 @@ const ChapterReader: React.FC = () => {
 
       {/* Reader Content */}
       <div className={`flex-1 pt-16 ${readingMode === 'horizontal' ? 'h-[calc(100vh-64px)] overflow-hidden' : ''}`}>
-        <h1 className="sr-only">Read Gachiakuta Chapter {chapter.number}: {chapter.title}</h1>
+        <h1 className="sr-only">Read Gamaran Chapter {chapter.number}: {chapter.title}</h1>
         {readingMode === 'vertical' && chapter.pages.length > 0 && (
           <div className="max-w-4xl mx-auto px-4 py-4">
             <Breadcrumbs items={[
               { label: 'Home', path: '/' },
-              { label: 'Gachiakuta', path: '/manga' },
+              { label: 'Gamaran', path: '/manga' },
               { label: `Chapter ${chapter.number}`, path: `/chapter/${chapter.number}` }
             ]} />
           </div>
@@ -195,7 +195,7 @@ const ChapterReader: React.FC = () => {
               <img
                 key={idx}
                 src={pageUrl}
-                alt={`Gachiakuta Chapter ${chapter.number} Page ${idx + 1}`}
+                alt={`Gamaran Chapter ${chapter.number} Page ${idx + 1}`}
                 className="w-full h-auto block"
                 loading={idx < 2 ? "eager" : "lazy"}
                 fetchPriority={idx === 0 ? "high" : "auto"}
@@ -214,7 +214,7 @@ const ChapterReader: React.FC = () => {
               <div key={idx} className="w-full h-full flex-shrink-0 snap-center flex items-center justify-center p-2 relative">
                 <img
                   src={pageUrl}
-                  alt={`Gachiakuta Chapter ${chapter.number} Page ${idx + 1}`}
+                  alt={`Gamaran Chapter ${chapter.number} Page ${idx + 1}`}
                   className="max-h-full max-w-full object-contain shadow-2xl"
                   loading={idx < 2 ? "eager" : "lazy"}
                   fetchPriority={idx === 0 ? "high" : "auto"}
@@ -360,9 +360,9 @@ const ChapterReader: React.FC = () => {
       {/* SEO Footer (Visible in all modes, pushed to bottom) */}
       <div className="bg-black py-12 px-4 border-t border-white/10 mt-auto">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-bb-blue font-bold uppercase tracking-widest mb-4 text-xs">Gachiakuta Manga</h2>
+          <h2 className="text-bb-blue font-bold uppercase tracking-widest mb-4 text-xs">Gamaran Manga</h2>
           <p className="text-gray-500 text-sm leading-relaxed max-w-2xl mx-auto">
-            You are currently reading <strong className="text-gray-400">Gachiakuta Chapter {chapter.number}</strong> online in high quality. 
+            You are currently reading <strong className="text-gray-400">Gamaran Chapter {chapter.number}</strong> online in high quality. 
             Enjoy the latest installment of Kei Urana's hit masterpiece, and follow the journey to become the world's greatest striker.
           </p>
         </div>

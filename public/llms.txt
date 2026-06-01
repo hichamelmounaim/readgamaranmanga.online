@@ -1,0 +1,34 @@
+# Gamaran Manga — readgamaranmanga.online
+
+## About
+Gamaran Manga is a fan reading platform dedicated to the martial arts manga series "Gamaran" (我間乱) by Yosuke Nakamaru. The site provides free access to high-quality English scans of all available chapters.
+
+## Manga Info
+- Title: Gamaran
+- Alternative Titles: 我間乱, Gama Ran
+- Author: Yosuke Nakamaru
+- Publisher: Kodansha (Weekly Shōnen Magazine)
+- Serialization Start: May 20, 2009
+- Serialization End: July 3, 2013
+- Status: Completed
+- Genre: Action, Martial Arts, Historical, Shounen
+- Synopsis: During the mid-Edo period, the Unabara Domain is known as the "Haunt of Demons" where martial arts masters gather. The lord of the domain, Washizu Kurogane, seeks to find the strongest martial school to succeed him. He stages a massive tournament for his 31 sons. The 28th son, Naoyoshi, recruits Gama Kurogane, the teenage son of the legendary swordsman Jinsuke Kurogane, representing the Ogame School. Together they enter the deadly tournament to defeat all other martial schools.
+
+## Key Characters
+- Gama Kurogane — protagonist, son of the legendary Kurogane Jinsuke, represents Ogame School.
+- Naoyoshi Washizu — Washizu's 28th son, sponsor of Ogame School.
+- Shinnojou Sakura — Gama's senior, extremely skilled swordsman of Ogame School.
+- Zenmaru Ichinose — another of Gama's seniors, user of a heavy sword.
+
+## Site Pages
+- Homepage: https://readgamaranmanga.online/
+- All Chapters: https://readgamaranmanga.online/manga
+- Chapter Reader: https://readgamaranmanga.online/chapter/{number}
+- Characters: https://readgamaranmanga.online/characters
+- About: https://readgamaranmanga.online/about
+
+## Contact
+Email: support@readgamaranmanga.online
+
+## Disclaimer
+This is a fan project. Not affiliated with Yosuke Nakamaru or Kodansha. All manga content belongs to their respective copyright owners.

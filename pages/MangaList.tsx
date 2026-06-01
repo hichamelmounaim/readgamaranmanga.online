@@ -22,8 +22,8 @@ const MangaList: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-[#0a0a0a]">
       <SEOHead
-        title="Gachiakuta Manga Library - All Chapters"
-        description="Browse the complete collection of Gachiakuta manga chapters. Read online in high quality."
+        title="Gamaran Manga Library - All Chapters"
+        description="Browse the complete collection of Gamaran manga chapters. Read online in high quality."
         canonicalUrl="https://readgamaranmanga.online/manga"
       />
 
@@ -37,10 +37,10 @@ const MangaList: React.FC = () => {
         <div className="max-w-7xl mx-auto relative z-10 text-center">
           <span className="text-bb-blue font-bold tracking-widest uppercase text-xs mb-3 block">Complete Collection</span>
           <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mb-6">
-            GACHIAKUTA <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">MANGA Library</span>
+            GAMARAN <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">MANGA Library</span>
           </h1>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg font-light">
-            Read every chapter of the Gachiakuta Manga by Kei Urana. From the very beginning to the latest release.
+            Read every chapter of the Gamaran Manga by Kei Urana. From the very beginning to the latest release.
           </p>
         </div>
       </div>

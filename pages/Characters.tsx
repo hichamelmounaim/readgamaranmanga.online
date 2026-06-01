@@ -7,14 +7,14 @@ const Characters: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <SEOHead
-        title="Gachiakuta Manga Characters - Database"
-        description="Detailed profiles of Gachiakuta Manga characters including Ludo, Engine and more."
+        title="Gamaran Manga Characters - Database"
+        description="Detailed profiles of Gamaran Manga characters including Ludo, Engine and more."
       />
 
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Gachiakuta Manga Characters</h1>
+        <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Gamaran Manga Characters</h1>
         <p className="text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed">
-          Comprehensive database of every character in the Gachiakuta manga. Learn about their sports, abilities, and relationships.
+          Comprehensive database of every character in the Gamaran manga. Learn about their sports, abilities, and relationships.
         </p>
       </div>
 

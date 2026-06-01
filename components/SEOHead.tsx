@@ -8,7 +8,7 @@ interface SEOHeadProps extends SEOMeta {
 const SEOHead: React.FC<SEOHeadProps> = ({ title, description, schema, canonicalUrl }) => {
   useEffect(() => {
     // Update Title
-    document.title = `${title} | Gachiakuta Manga`;
+    document.title = `${title} | Gamaran Manga`;
 
     // Update Meta Description
     let metaDescription = document.querySelector('meta[name="description"]');

@@ -12,12 +12,12 @@ const Home: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Gachiakuta Manga - Read Online High Quality"
-        description="Read Gachiakuta Manga online in high quality. The best place for Gachiakuta chapters, character info, and latest updates. All chapters available."
+        title="Gamaran Manga - Read Online High Quality"
+        description="Read Gamaran Manga online in high quality. The best place for Gamaran chapters, character info, and latest updates. All chapters available."
         schema={{
           "@context": "https://schema.org",
           "@type": "WebSite",
-          "name": "Gachiakuta Manga",
+          "name": "Gamaran Manga",
           "url": "https://readgamaranmanga.online",
         }}
       />
@@ -26,7 +26,7 @@ const Home: React.FC = () => {
       <section className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden bg-bb-dark py-20">
         <div className="absolute inset-0 z-0 opacity-30 select-none pointer-events-none">
           <img
-            src="/gachiakuta.webp"
+            src="/gamaran.webp"
             alt=""
             width="1920"
             height="1080"
@@ -39,11 +39,11 @@ const Home: React.FC = () => {
         <div className="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
 
           <h1 className="text-5xl md:text-8xl font-heading font-bold text-white mb-4 drop-shadow-2xl tracking-tighter text-center">
-            GACHIAKUTA <span className="text-bb-blue">MANGA</span>
+            GAMARAN <span className="text-bb-blue">MANGA</span>
           </h1>
 
           <p className="text-gray-300 text-lg md:text-xl max-w-3xl text-center mb-10 font-light leading-relaxed">
-            Read Gachiakuta Manga Online In High Quality, All Chapters and Volumes in English With HD scans and No Sign-Up Required.
+            Read Gamaran Manga Online In High Quality, All Chapters and Volumes in English With HD scans and No Sign-Up Required.
           </p>
 
           {/* Info Card - Dark by default, Light/Dark supported if needed, but keeping Dark for Hero */}
@@ -188,10 +188,10 @@ const Home: React.FC = () => {
 
         <section className="mb-16">
           <div className="bg-white dark:bg-[#1a1a1a] rounded-2xl p-8 border border-gray-200 dark:border-white/10 shadow-sm">
-            <h2 className="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6">About Gachiakuta</h2>
+            <h2 className="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6">About Gamaran</h2>
             <div className="prose prose-lg dark:prose-invert text-gray-700 dark:text-gray-300 max-w-none space-y-4">
               <p>
-                <strong className="text-gray-900 dark:text-white">Gachiakuta</strong> is an acclaimed manga series written/illustrated by <strong className="text-gray-900 dark:text-white">Kei Urana</strong>. It has been serialized in <strong className="text-gray-900 dark:text-white">Weekly Shōnen Magazine</strong> since 2022. The story follows <strong className="text-gray-900 dark:text-white">Ludo</strong> and other key figures in an epic journey.
+                <strong className="text-gray-900 dark:text-white">Gamaran</strong> is an acclaimed manga series written/illustrated by <strong className="text-gray-900 dark:text-white">Kei Urana</strong>. It has been serialized in <strong className="text-gray-900 dark:text-white">Weekly Shōnen Magazine</strong> since 2022. The story follows <strong className="text-gray-900 dark:text-white">Ludo</strong> and other key figures in an epic journey.
               </p>
 
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-6 mb-3">Synopsis</h3>
@@ -204,9 +204,9 @@ const Home: React.FC = () => {
                 The series features memorable characters including <strong className="text-gray-900 dark:text-white">Ludo</strong>, <strong className="text-gray-900 dark:text-white">Engine</strong>, and <strong className="text-gray-900 dark:text-white">Ryo</strong>.
               </p>
 
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-6 mb-3">Why Read Gachiakuta?</h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-6 mb-3">Why Read Gamaran?</h3>
               <p>
-                <strong className="text-gray-900 dark:text-white">Gachiakuta</strong> offers an incredible and unique storyline with high-stakes drama and exceptional artwork. The story builds progressively, keeping readers on the edge of their seats with every chapter.
+                <strong className="text-gray-900 dark:text-white">Gamaran</strong> offers an incredible and unique storyline with high-stakes drama and exceptional artwork. The story builds progressively, keeping readers on the edge of their seats with every chapter.
               </p>
             </div>
           </div>
@@ -222,23 +222,23 @@ const Home: React.FC = () => {
 
           <div className="grid gap-6 md:grid-cols-2">
             <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Why Read Gachiakuta Manga on this Site?</h3>
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Why Read Gamaran Manga on this Site?</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                Experience <strong>Gachiakuta manga</strong> like never before with high-quality scans and regularly updated chapters. Dive into the intense storyline without delays.
+                Experience <strong>Gamaran manga</strong> like never before with high-quality scans and regularly updated chapters. Dive into the intense storyline without delays.
               </p>
             </div>
 
             <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Differences between Gachiakuta Manga and Anime?</h3>
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Differences between Gamaran Manga and Anime?</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                The <strong>Gachiakuta manga</strong> offers intense and detailed art that the anime sometimes simplifies. The aura and ego effects are more visceral in the manga.
+                The <strong>Gamaran manga</strong> offers intense and detailed art that the anime sometimes simplifies. The aura and ego effects are more visceral in the manga.
               </p>
             </div>
 
             <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Is the Gachiakuta Manga Finished?</h3>
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Is the Gamaran Manga Finished?</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                No, the <strong>Gachiakuta manga</strong> is currently ongoing. New chapters are released in Weekly Shonen Magazine.
+                No, the <strong>Gamaran manga</strong> is currently ongoing. New chapters are released in Weekly Shonen Magazine.
               </p>
             </div>
 
@@ -254,20 +254,20 @@ const Home: React.FC = () => {
         {/* Improved SEO Content Section */}
         <section className="mb-12">
           <div className="bg-white dark:bg-[#1a1a1a] rounded-2xl p-8 border border-gray-200 dark:border-white/10 shadow-sm">
-            <h2 className="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6">Read Gachiakuta Manga Online Free</h2>
+            <h2 className="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6">Read Gamaran Manga Online Free</h2>
             <div className="prose prose-lg dark:prose-invert text-gray-700 dark:text-gray-300 max-w-none space-y-4">
               <p>
-                Welcome to <strong>readgamaranmanga.online</strong>, the premier destination for fans to <strong className="text-bb-blue">Read Gachiakuta Manga</strong> online. We provide high-quality scans of the latest chapters as soon as they are released. Join millions of fans worldwide in following the journey of Ludo.
+                Welcome to <strong>readgamaranmanga.online</strong>, the premier destination for fans to <strong className="text-bb-blue">Read Gamaran Manga</strong> online. We provide high-quality scans of the latest chapters as soon as they are released. Join millions of fans worldwide in following the journey of Ludo.
               </p>
 
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-8 mb-4">What is Gachiakuta?</h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-8 mb-4">What is Gamaran?</h3>
               <p>
                 Falsely accused of a crime, Ludo is thrown into the Abyss. In this waste-filled wasteland, he joins the Janitors, using trash as Jinki weapons to fight beasts.
               </p>
 
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-8 mb-4">Why is Gachiakuta So Popular?</h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-8 mb-4">Why is Gamaran So Popular?</h3>
               <p>
-                Created by <strong className="text-gray-900 dark:text-white">Kei Urana</strong>, <em>Gachiakuta</em> deconstructs standard tropes, highlighting individual drive and unique storytelling. Combined with exceptional, dynamic art style, it has become a global phenomenon.
+                Created by <strong className="text-gray-900 dark:text-white">Kei Urana</strong>, <em>Gamaran</em> deconstructs standard tropes, highlighting individual drive and unique storytelling. Combined with exceptional, dynamic art style, it has become a global phenomenon.
               </p>
             </div>
           </div>

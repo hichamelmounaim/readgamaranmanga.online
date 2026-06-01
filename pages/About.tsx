@@ -5,8 +5,8 @@ const About: React.FC = () => {
     return (
         <div className="max-w-4xl mx-auto px-4 py-16 min-h-screen">
             <SEOHead
-                title="About Us - Gachiakuta Manga"
-                description="Learn more about Gachiakuta Manga, our mission, and why we are the best place to read Gachiakuta online."
+                title="About Us - Gamaran Manga"
+                description="Learn more about Gamaran Manga, our mission, and why we are the best place to read Gamaran online."
             />
 
             <h1 className="text-3xl md:text-4xl font-bold mb-8 dark:text-white border-b border-gray-200 dark:border-gray-800 pb-4">
@@ -15,12 +15,12 @@ const About: React.FC = () => {
 
             <div className="prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300 space-y-6">
                 <p className="lead text-xl text-gray-600 dark:text-gray-400">
-                    Welcome to <strong>Gachiakuta Manga</strong>, the ultimate destination for fans of Kei Urana's masterpiece.
+                    Welcome to <strong>Gamaran Manga</strong>, the ultimate destination for fans of Kei Urana's masterpiece.
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">Our Mission</h2>
                 <p>
-                    Our mission is simple: to provide the best possible reading experience for Gachiakuta fans worldwide. We believe that manga should be accessible, fast, and enjoyable to read on any device.
+                    Our mission is simple: to provide the best possible reading experience for Gamaran fans worldwide. We believe that manga should be accessible, fast, and enjoyable to read on any device.
                 </p>
                 <p>
                     Whether you are catching up on the latest chapters or starting this epic journey from the very beginning, we are here to ensure you never miss a beat.
