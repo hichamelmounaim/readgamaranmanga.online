@@ -18,7 +18,7 @@ const Home: React.FC = () => {
           "@context": "https://schema.org",
           "@type": "WebSite",
           "name": "Gamaran Manga",
-          "url": "https://readgamaranmanga.online",
+          "url": "https://www.readgamaranmanga.online",
         }}
       />
 

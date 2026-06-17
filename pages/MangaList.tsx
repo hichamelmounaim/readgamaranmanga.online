@@ -24,7 +24,7 @@ const MangaList: React.FC = () => {
       <SEOHead
         title="Gamaran Manga Library - All Chapters"
         description="Browse the complete collection of Gamaran manga chapters. Read online in high quality."
-        canonicalUrl="https://readgamaranmanga.online/manga"
+        canonicalUrl="https://www.readgamaranmanga.online/manga"
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">

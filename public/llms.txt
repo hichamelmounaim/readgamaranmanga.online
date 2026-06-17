@@ -21,11 +21,11 @@ Gamaran Manga is a fan reading platform dedicated to the martial arts manga seri
 - Zenmaru Ichinose — another of Gama's seniors, user of a heavy sword.
 
 ## Site Pages
-- Homepage: https://readgamaranmanga.online/
-- All Chapters: https://readgamaranmanga.online/manga
-- Chapter Reader: https://readgamaranmanga.online/chapter/{number}
-- Characters: https://readgamaranmanga.online/characters
-- About: https://readgamaranmanga.online/about
+- Homepage: https://www.readgamaranmanga.online/
+- All Chapters: https://www.readgamaranmanga.online/manga
+- Chapter Reader: https://www.readgamaranmanga.online/chapter/{number}
+- Characters: https://www.readgamaranmanga.online/characters
+- About: https://www.readgamaranmanga.online/about
 
 ## Contact
 Email: support@readgamaranmanga.online
